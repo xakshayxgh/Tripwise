@@ -1,16 +1,65 @@
-# React + Vite
+# TripWise – Smart Travel Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+TripWise is a travel planning web application that helps users discover destinations, search for places, filter and sort destinations, view destination details, and create a personal travel itinerary.
 
-Currently, two official plugins are available:
+Users can add and remove destinations from their trip, save favourites, and estimate their travel budget. Trip and favourite data are stored in the browser using localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Chosen Track
+Frontend Development
 
-## React Compiler
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Browser localStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## API Details
+The application uses the Wikipedia API to search for destination-related information. It also includes a built-in collection of destinations for browsing.
 
-## Expanding the ESLint configuration
+## Features
+- Explore travel destinations
+- Search for destinations
+- Filter destinations by category
+- Sort destinations
+- View destination details
+- Add and remove destinations from My Trip
+- Save favourite destinations
+- Estimate travel budget
+- Surprise Me destination selection
+- Persist trip and favourite data using localStorage
+- Responsive desktop and mobile interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+
+### Prerequisites
+Install Node.js.
+
+### Installation
+1. Clone or download this repository.
+2. Open the project folder in a terminal.
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in the terminal.
+
+## Live Demo
+https://tripwise-ruby.vercel.app/
+
+## Project Repository
+See this GitHub repository for the source code.
+
+## Author
+B.Tech Computer Science and Engineering  
+VIT Chennai
